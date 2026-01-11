@@ -122,6 +122,8 @@ outputs:
     description: Check run URL
   url_html:
     description: Check run URL HTML
+  body:
+    description: The actual Markdown containing the report
 runs:
   using: 'node20'
   main: 'dist/index.js'
