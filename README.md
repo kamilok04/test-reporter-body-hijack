@@ -203,15 +203,16 @@ jobs:
 ```
 
 ## Output parameters
-| Name       | Description              |
-| :--        | :--                      |
-| conclusion | `success` or `failure`   |
-| passed     | Count of passed tests    |
-| failed     | Count of failed tests    |
-| skipped    | Count of skipped tests   |
-| time       | Test execution time [ms] |
-| url        | Check run URL            |
-| url_html   | Check run URL HTML       |
+| Name       | Description                     |
+| :--        | :--                             |
+| conclusion | `success` or `failure`          |
+| passed     | Count of passed tests           |
+| failed     | Count of failed tests           |
+| skipped    | Count of skipped tests          |
+| time       | Test execution time [ms]        |
+| url        | Check run URL                   |
+| url_html   | Check run URL HTML              |
+| body       | The actual Markdown containing the report |
 
 ## Supported formats
 
